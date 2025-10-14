@@ -1,0 +1,59 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Aryan Kohli
+ID:      169091834
+Email:   kohl1834@mylaurier.ca
+Version: 2025-03-02
+-------------------------------------------------------
+"""
+-----------------------------------------------------
+t01
+-------------------------------------------------------
+Testing Queue:
+Is empty: True
+Inserted 10, 20, 30
+Queue length: 3
+Peek front: 10
+Removed: 10
+Removed: 20
+Is empty: False
+Removed: 30
+Is empty: True
+
+-------------------------------------------------------
+t02
+------Testing Priority Queue:
+Is empty: True
+Inserted 50, 20, 40, 10, 30 (should be ordered by priority)
+Priority Queue length: 5
+Peek front: 10
+Removed: 10
+Removed: 20
+Is empty: False
+Removed: 30
+Removed: 40
+Removed: 50
+Is empty: True
+-------------------------------------------------
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Testing Deque:
+Is empty: True
+Inserted 10 at front, 20 at front, 30 at rear, 40 at rear
+Deque length: 4
+Peek front: 10
+Peek rear: 40
+Removed from front: 10
+Removed from rear: 40
+Is empty: False
+Removed from front: 20
+Removed from rear: 30
+Is empty: True
+
+
+
+-------------------------------------------------------
